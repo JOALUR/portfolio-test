@@ -1,0 +1,129 @@
+/* Custom CSS */
+body {
+  background-position: center;
+  background-color: #031216;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  text-align: center;
+  color: #f0f6f6;
+}
+
+#mission-section,
+#skills-section,
+#contact-section {
+  color: #f0f6f6;
+}
+
+.navbar {
+  background-color: #031216 !important;
+}
+
+.bi-house {
+  color: #f0f6f6;
+}
+
+.icon-size {
+  font-size: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f0f6f6;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(240, 246, 246, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#hero-section {
+  background-image: url("img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f6f6;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+#headshot {
+  border-radius: 50%;
+  border: 5px solid #f0f6f6;
+  width: 125px;
+  /* max-width: 400px; */
+  height: 125px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#name {
+  margin: 0;
+  font-size: 2rem;
+}
+
+#description {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+#name,
+#description {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  #headshot {
+    width: 250px;
+    /* max-width: 500px;
+    max-height: 500px; */
+    height: 250px;
+  }
+
+  #name {
+    font-size: 2rem;
+  }
+
+  #description {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #headshot {
+    width: 200px;
+    max-width: 200px;
+  }
+
+  #name {
+    font-size: 1.5rem;
+  }
+
+  #description {
+    font-size: 1rem;
+  }
+}
