@@ -9,3 +9,5 @@ fixed header,
  contact section,
  carousel with quotes I like,
  and copyright footer
+
+Had issues with deploying website, will work on it
